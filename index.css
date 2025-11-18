@@ -7,3 +7,29 @@
   left: 160px;
   right: auto;
 }
+
+@media (max-width: 991px) {
+  .u-section-1 .u-image-1 {
+    left: -50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-image-1 {
+    height: 1044px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    width: auto;
+    left: auto;
+    bottom: auto;
+    right: auto;
+    top: auto;
+  }
+}
